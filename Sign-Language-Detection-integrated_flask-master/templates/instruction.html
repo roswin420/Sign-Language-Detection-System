@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instruction</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ed886e45fa.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
+  <style>
+    #bg {
+      background: rgb(123, 41, 144);
+      background: linear-gradient(45deg, rgb(36, 116, 182) 24%, rgba(251, 248, 251, 1) 24%, rgba(255, 255, 255, 1) 86%, rgba(255, 253, 56, 1) 86%);
+      background-repeat: no-repeat;
+    }
+
+    .az {
+      border: 2px solid #264496;
+      border-radius: 25px;
+    }
+  </style>
+</head>
+
+<body id="bg" >
+
+  {%  include 'header.html' %}
+
+  <div class="pt-5 pb-5">
+    <div class="container">
+      <h3 class="text-primary text-center">ASL Alphabet Chart</h3>
+      <img src="{{ url_for('static',filename='images/az.png')}}" alt="" srcset="" class=" mx-auto d-block az">
+    </div>
+  </div>
+
+  {%  include 'footer.html' %}
+
+</body>
+
+</html>
