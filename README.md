@@ -5,6 +5,7 @@ This repository contains the implementation of a real-time hand gesture recognit
 ## Table of Contents
 
 * Introduction
+* Tech Stack
 * System Architecture
 * CNN LSTM Model Implementation
 * Installation
@@ -17,6 +18,13 @@ This repository contains the implementation of a real-time hand gesture recognit
 ## Introduction
 
 Hand gesture recognition systems have gained significant attention due to their wide range of applications, including virtual prototyping, sign language analysis, and medical training. This project presents a novel real-time method for hand gesture recognition using a 3D DCNN-LSTM model. The main components of the system include video pre-processing, feature extraction, training the DCNN-LSTM model, and validating/testing the trained model.
+
+## Tech Stack
+* ML Model:  3D Convolutional Neural Networks +Long Short Term Memory (3D CNN-LSTM)
+* Prog Lang:  Python 
+* Libraries: OpenCV, Pandas, Keras, Tensorflow, Pickle
+* WebApp: Flask Framework
+* Development Env: Google Collab Cloud
 
 ## System Architecture
 
