@@ -1,6 +1,6 @@
 # Real-Time Gesture Detection Using 3D DCNN-LSTM Model
 
-[ezgif com-gif-maker](https://user-images.githubusercontent.com/44722717/232202678-ee1810f9-e8c4-470c-90fa-31c100811409.gif)
+![](https://github.com/roswin420/Sign-Language-Detection-System/blob/main/Sign-Language-Detection-integrated_flask-master/ezgif.com-gif-maker.gif)
 
 This repository contains the implementation of a real-time hand gesture recognition system using a 3D DCNN-LSTM model. The system recognizes gestures in real-time us!
 ing video input from a webcam and classifies them into different categories.
