@@ -1,6 +1,9 @@
 # Real-Time Gesture Detection Using 3D DCNN-LSTM Model
 
-This repository contains the implementation of a real-time hand gesture recognition system using a 3D DCNN-LSTM model. The system recognizes gestures in real-time using video input from a webcam and classifies them into different categories.
+[ezgif com-gif-maker](https://user-images.githubusercontent.com/44722717/232202678-ee1810f9-e8c4-470c-90fa-31c100811409.gif)
+
+This repository contains the implementation of a real-time hand gesture recognition system using a 3D DCNN-LSTM model. The system recognizes gestures in real-time us!
+ing video input from a webcam and classifies them into different categories.
 
 ## Table of Contents
 
