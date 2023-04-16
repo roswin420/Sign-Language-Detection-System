@@ -83,8 +83,6 @@ Using the open-cv2 library, the real-time input is captured and fed to the 3D DC
 
 ![image](https://user-images.githubusercontent.com/44722717/232201044-95a265de-405b-48d6-a32b-68151aaa3c4c.png)
 
-
-
 ## Results
 The 3D DCNN-LSTM model achieved an accuracy of 95.3% on the training data and 90.1% on the test data. The model was tested in different lighting conditions and with gestures performed by different people, demonstrating robustness and high accuracy.
 
